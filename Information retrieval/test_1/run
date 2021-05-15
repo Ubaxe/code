@@ -1,0 +1,28 @@
+#!/bin/sh
+
+
+gcc -Wall -Werror -lm -std=c11 *.c  -o  test_Ass1
+test= ./test_Ass1
+
+f1="invertedIndex.txt"
+f2="invertedIndex_exp.txt"
+f3="mars_TfIdfList.txt"
+f4="mars_TfIdfList_exp.txt"
+f5="sun_TfIdfList.txt"
+f6="sun_TfIdfList_exp.txt"
+f7="nasa_mars_moon.txt"
+f8="nasa_mars_moon_exp.txt"
+
+echo "---Compare invertedIndex--"
+diff $f1 $f2 && echo "Pass" || echo "Fail"
+
+echo "---Compare mars_TfIdfList--"
+diff $f3 $f4 && echo "Pass" || echo "Fail"
+
+echo "---Compare sun_TfIdfList.txt--"
+diff $f5 $f6 && echo "Pass" || echo "Fail"
+
+echo "---Compare nasa_mars_moon.txt--"
+diff $f7 $f8 && echo "Pass" || echo "Fail"
+
+

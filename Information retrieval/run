@@ -1,0 +1,33 @@
+#!/bin/sh
+
+
+gcc -Wall -Werror -lm -std=c11 *.c  -o  test_Ass1
+test= ./test_Ass1
+
+f1="database.txt"
+f2="database_exp.txt"
+f3="network_computer.txt"
+f4="network_computer_exp.txt"
+f5="invertedIndex.txt"
+f6="invertedIndex_exp.txt"
+f7="computer.txt"
+f8="computer_exp.txt"
+f9="software_security.txt"
+f10="software_security_exp.txt"
+
+echo "---Compare database---"
+diff $f1 $f2 && echo "Pass" || echo "Fail"
+
+echo "---Compare network_computer---"
+diff $f3 $f4 && echo "Pass" || echo "Fail"
+
+echo "---Compare invertedIndex.txt---"
+diff $f5 $f6 && echo "Pass" || echo "Fail"
+
+echo "---Compare computer.txt---"
+diff $f7 $f8 && echo "Pass" || echo "Fail"
+
+echo "---Compare software_security.txt---"
+diff $f9 $f10 && echo "Pass" || echo "Fail"
+
+
