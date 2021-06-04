@@ -1,0 +1,231 @@
+/* 05. blog area css here */
+.blog_section{
+    @media #{$tablet-device}{
+       
+    }
+    @media #{$large-mobile}{
+        
+    }
+}
+.blog_carousel{
+    & .col-lg-4{
+        flex: 0 0 100%;
+        width: 100%;
+    }
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 98px;
+	@media #{$tablet-device}{
+    	padding-bottom: 79px;   
+    }
+	@media #{$large-mobile}{
+    	padding-bottom: 59px;    
+    }
+}
+
+.single_blog{
+    
+}
+
+.blog_thumb{
+    overflow: hidden;
+    &:hover{
+        & img{
+            transform: scale(1.1) rotate(0.05deg);
+        }
+    }
+    & img{
+        transition: .3s;
+    }
+}
+.blog_content_wrapper {
+	display: flex;
+	margin-top: 22px;
+	& .post_date{
+		min-width: 90px;
+		height: 90px;
+		background: $secondary_color;;
+		border-radius: 50%;
+		display: flex;
+		text-align: center;
+		margin-right: 25px;
+		align-items: center;
+		justify-content: center;
+		margin-top: 4px;
+		@media #{$desktop-device}{
+            min-width: 70px;
+			height: 70px;
+			margin-right: 12px;
+        }
+		@media #{$tablet-device}{
+			min-width: 70px;
+			height: 70px;
+			margin-right: 15px;
+		}
+		@media #{$large-mobile}{
+        	min-width: 65px;
+			height: 65px;
+			margin-right: 12px;
+			margin-top: 4px;
+    	}
+		& p{
+			font-size: 28px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #fff;
+			@media #{$desktop-device}{
+            	font-size: 22px;
+			}
+			@media #{$tablet-device}{
+				font-size: 24px;
+			}
+			@media #{$large-mobile}{
+        		font-size: 20px;
+    		}
+			& span{
+				display: block;
+				font-size: 13px;
+				position: relative;
+				padding-top: 8px;
+				@media #{$desktop-device}{
+					font-size: 12px;
+					padding-top: 5px;
+				}
+				@media #{$tablet-device}{
+					font-size: 12px;
+					padding-top: 4px;
+				} 
+				@media #{$large-mobile}{
+        			font-size: 11px;
+					padding-top: 3px;
+    			}
+				&::before{
+					position: absolute;
+					content: "";
+					width: 50px;
+					height: 1px;
+					background:#fff;
+					display: block;
+					margin-top: -2px;
+					left: 50%;
+					transform: translatex(-50%);
+					@media #{$desktop-device}{
+						width: 42px;
+					}
+					@media #{$tablet-device}{
+						width: 40px;
+						margin-top: -2px;
+					}
+					@media #{$large-mobile}{
+						width: 36px;
+						margin-top: -1px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.blog_content {
+    & h4{
+        font-size: 18px;
+		line-height: 1.33333;
+		margin-bottom: 5px;
+		font-weight: 600;
+        @media #{$mini-laptop-device}{
+            font-size: 17px;
+            line-height: 21px;
+        }
+        @media #{$desktop-device}{
+            font-size: 16px;
+			line-height: 19px;
+            letter-spacing: 0;
+        }
+        @media #{$tablet-device}{
+            line-height: 17px;
+        }
+        @media #{$large-mobile}{
+            font-size: 16px;
+			line-height: 20px;
+			margin-bottom: 4px;
+			letter-spacing: 0
+        }
+        & a{
+            &:hover{
+                color: $secondary_color;
+            }
+        }
+    }
+	& span{
+		font-style: italic;
+		& a{
+            &:hover{
+                color: $secondary_color;
+            }
+        }
+	}
+    & p{
+        font-size: 14px;
+		line-height: 24px;
+		margin: 15px 0 17px;
+		letter-spacing: 0;
+        @media #{$desktop-device}{
+            font-size: 14px;
+            line-height: 19px;
+        }
+        @media #{$tablet-device}{
+            line-height: 22px;
+			margin: 13px 0 14px;
+        }
+        @media #{$large-mobile}{
+            font-size: 14px;
+			line-height: 22px;
+			margin: 13px 0 14px;	
+        }
+      
+    }
+	& > a{
+		font-size: 14px;
+		text-transform: uppercase;
+		position: relative;
+		font-weight: 700;
+		display: inline-block;
+		line-height: 22px;
+		@media #{$tablet-device}{
+            font-size: 13px;
+        }
+		@media #{$large-mobile}{
+             font-size: 13px;	
+        }
+		&::before{
+			content: "";
+			left: 0;
+			right: 0;
+			bottom:2px;
+			background:#747474;
+			height: 1px;
+			position: absolute;
+			transition: .3s;
+		}
+		&:hover{
+			color: $secondary_color;
+			&::before{
+				background: $secondary_color;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

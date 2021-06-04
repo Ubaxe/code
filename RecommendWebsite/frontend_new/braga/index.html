@@ -1,0 +1,659 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>5HD - Recommendation Gitf Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- CSS 
+    ========================= -->
+    <!--bootstrap min css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--owl carousel min css-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!--slick min css-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!--magnific popup min css-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--font awesome css-->
+    <link rel="stylesheet" href="assets/css/font.awesome.css">
+    <!--ionicons css-->
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <!--7 stroke icons css-->
+    <link rel="stylesheet" href="assets/css/pe-icon-7-stroke.css">
+    <!--animate css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--jquery ui min css-->
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <!--plugins css-->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--modernizr min js here-->
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <!--header area start-->
+    <div class="off_canvars_overlay"></div>
+    <header>
+        <div class="main_header header_two header_transparent sticky-header">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+				    <div class="col-12">
+				    	<div class="header2_container">
+				    		 <!--offcanvas menu area start-->
+							<div class="offcanvas_menu offcanvas_two">
+								<div class="canvas_open">
+									<a href="javascript:void(0)"><i class="ion-navicon-round"></i></a>
+								</div>
+								<div class="offcanvas_menu_wrapper">
+									<div class="canvas_close">
+										<a href="javascript:void(0)"><i class="ion-android-close"></i></a>  
+									</div>
+									<div id="menu" class="text-left ">
+										<ul class="offcanvas_main_menu">
+											<li class="menu-item-has-children active">
+												<a href="index.html">Home</a>
+											</li>
+                                            <li class="menu-item-has-children">
+                                                <a href="#">Category</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="shop-fullwidth.html?electronic">Electronic</a></li>
+                                                    <li><a href="shop-fullwidth.html?book">Book</a></li>
+                                                    <li><a href="shop-fullwidth.html?sport">Sport</a></li>
+                                                    <li><a href="shop-fullwidth.html?clothes">Clothes</a></li>
+                                                    <li><a href="shop-fullwidth.html?home">Home</a></li>
+                                                    <li><a href="shop-fullwidth.html?toy">Toy</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="my-account.html">my account</a>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="about.html">about Us</a>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="contact.html"> Contact Us</a> 
+                                            </li>
+										</ul>
+									</div>
+									<div class="offcanvas_footer">
+										<span><a href="#"><i class="fa fa-envelope-o"></i> info@5hd.com</a></span>
+									</div>
+								</div>
+							</div>
+							<!--offcanvas menu area end-->
+				    		<div class="header2_left">
+				    			<div class="logo logo2">
+									<a href="index.html"><img src="assets/img/logo/5hd.png" alt="5hd"></a>
+								</div>
+		    					<div class="logo logo2_sticky">
+									<a href="index.html"><img src="assets/img/logo/5hd.png" alt="5hd"></a>
+								</div>
+			    				<!--main menu start-->
+								<div class="main_menu menu_two menu_position"> 
+                                    <nav>  
+                                        <ul>
+                                            <li><a  href="index.html">home</a></li>
+                                            <li class="mega_items"><a class="active">Category<i class="fa fa-angle-down"></i></a> 
+                                                <div class="mega_menu">
+                                                    <ul class="mega_menu_inner">
+                                                        <li>
+                                                            <ul>
+                                                                <li><a href="shop-fullwidth.html?electronic">Electronic</a></li>
+                                                                <li><a href="shop-fullwidth.html?book">Book</a></li>
+                                                                <li><a href="shop-fullwidth.html?sport">Sport</a></li>
+                                                                <li><a href="shop-fullwidth.html?clothes">Clothes</a></li>
+                                                                <li><a href="shop-fullwidth.html?home">Home</a></li>
+                                                                <li><a href="shop-fullwidth.html?toy">Toy</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </nav> 
+								</div>
+								<!--main menu end-->
+				    		</div>
+				    		<div class="header_account_area">
+                                <div class="language_currency header_account_list ">
+                                    <button id="LoginButton" type="button" class="btn btn-dark" onclick="location.href='login.html'">Login</button>
+								</div>
+								<div class="header_account_list search_list">
+									<a href="javascript:void(0)"><span class="pe-7s-search"></span></a>
+									<div class="dropdown_search" style="border: 1px solid transparent; padding: 10px;">
+										<form id="search" action="#">
+                                            <h4>Filter by price</h4>
+                                            <div id="slider-range"></div>   
+                                            <input type="text" name="text" id="amount" />   
+											<input placeholder="Search entire store here ..." type="text">
+											<button type="button"><span class="pe-7s-search"></span></button>
+										</form>
+									</div>
+								</div>
+								<div class="header_account_list  mini_cart_wrapper">
+									<a href="javascript:void(0)"><span class="pe-7s-shopbag"></span>
+										<span class="item_count">0</span>
+									</a>	
+							   </div>
+								<div class="language_currency header_account_list ">
+									<a href="my-account.html"> <span class="pe-7s-user"></span></a>
+								</div>
+							</div>
+				    	</div>
+				    </div>              
+				</div>
+			</div>
+        </div> 
+        <!--mini cart-->
+        <div class="mini_cart">
+            <div class="cart_gallery">
+                <div class="cart_close">
+                    <div class="cart_text">
+                        <h3>cart</h3>
+                    </div>
+                    <div class="mini_cart_close">
+                        <a href="javascript:void(0)"><i class="ion-android-close"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_page" style="overflow: visible;">
+                <div class="mini_cart_table">
+                    <div class="cart_table_border">
+                        <div class="cart_total">
+                            <span>Quantity:</span>
+                            <span class="quantity">0</span>
+                        </div>
+                        <div class="cart_total mt-10">
+                            <span>total:</span>
+                            <span class="price">$0.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mini_cart_footer">
+                    <div class="cart_button">
+                        <a id="checkout" target="_blank"><i class="fa fa-sign-in"></i> View Order</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--mini cart end-->
+    </header>
+    <!--header area end-->
+    
+    <!--slider area start-->
+    <section class="slider_section slider_s_two mb-100">
+        <div class="slider_area owl-carousel">
+            <div class="single_slider d-flex align-items-center" data-bgimg="assets/img/slider/banner-2.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="slider_content slider_c_two">
+                                <h1>Sale Up To 20% Off  <br> Classic Backpack </h1>
+                                <p>
+								An exclusive selection of this season’s trends. <span>Exclusively online </span>
+							     </p>
+                                <a href="#">Shop Now +</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single_slider d-flex align-items-center" data-bgimg="assets/img/slider/banner-1.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="slider_content slider_c_two">
+                                 <h1 style="color: black;">You can find <br> prefect gift idea</h1>
+                                <p style="color: black;">
+								    <span >Unique Recommendation</span>
+							     </p>
+                                <a href="#">Shop Now </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--slider area end-->
+    
+    <!--shipping area start-->
+    <div class="shipping_area shipping_two mb-95">
+        <div class="container">
+            <div class="shipping_container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="single_shipping">
+							<div class="shipping_icone">
+							   <img src="assets/img/icon/shipping.jpg" alt="Free Delivery">
+							</div>
+							<div class="shipping_content">
+							   <h3>Free Delivery</h3>
+								<p>Free shipping on all order</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="single_shipping">
+							<div class="shipping_icone">
+							   <img src="assets/img/icon/Support.jpg" alt="Support">
+							</div>
+							<div class="shipping_content">
+							   <h3>Online Support 24/7</h3>
+								<p>Support online 24 hours a day</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="single_shipping">
+							<div class="shipping_icone">
+							   <img src="assets/img/icon/Return.jpg" alt="Return">
+							</div>
+							<div class="shipping_content">
+							   <h3>Money Return</h3>
+								<p>Back guarantee under 7 days</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="single_shipping">
+							<div class="shipping_icone">
+							   <img src="assets/img/icon/Recommendation.jpg" alt="Recommendation">
+							</div>
+							<div class="shipping_content">
+							   <h3>Unique Recommendation</h3>
+								<p>Find your gift</p>
+							</div>
+						</div>
+					</div>
+				</div>  
+            </div> 
+        </div>
+    </div>
+    <!--shipping area end-->
+    
+    <!--product area start-->
+    <div class="product_area  mb-95">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section_title product_shop_title">
+                       <h2>Recommendation</h2>
+					</div>
+                </div>
+            </div> 
+            <div class="row">
+               <div class="product_carousel product_column5 owl-carousel">
+                   <div class="col-lg-3">
+                       <div class="product_items"></div>
+                   </div>
+                   <div class="col-lg-3">
+                       <div class="product_items"></div>
+                   </div>
+                   <div class="col-lg-3">
+                       <div class="product_items"></div>
+                   </div>
+                   <div class="col-lg-3">
+                       <div class="product_items"></div>
+                   </div>
+                   <div class="col-lg-3">
+                       <div class="product_items"></div>
+                   </div>
+                   <div class="col-lg-3">
+                       <div class="product_items"></div>
+                   </div>
+               </div>
+           </div>   
+        </div> 
+    </div>
+    <!--product area end-->
+    
+    <!--discount banner area start-->
+    <div class="discount_banner_area discount_banner2 mb-95">
+    	<div class="container-fluid">
+    		<div class="banner_thumb">
+				<a href="#"><img src="assets/img/slider/chatbot1.jpg" alt=""></a>
+				<div class="banner_text3">
+					<h3>Ask Question</h3>
+					<h2>Chatbot</h2>
+					<p>Find<span>prefect gift idea</span></p>
+				</div>
+			</div>
+    	</div>
+    </div>
+    <!--discount banner area end-->
+    
+    <div class="categories_product_area   mb-92">
+        <div class="container">
+        	<div class="row">
+				<div class="col-12">
+                    <div class="section_title">
+                        <h2>Our Categories</h2>
+                    </div>
+				</div>
+			</div> 
+            <div class="row" style="margin-bottom: 50px;">
+				<div class="col-lg-3">
+					<article class="single_categories" id="electronic">
+						<figure>
+							<div class="categories_thumb">
+								<a href="shop-fullwidth.html?electronic"><img src="assets/img/s-product/electronic2.jpg" alt=""></a>
+							</div>
+							<figcaption class="categories_content">
+								<h4 class="product_name"><a href="shop-fullwidth.html?electronic">Electronic</a></h4>
+								<div class="product_collection">
+									<p class="num_product_c"></p>
+									<a href="shop-fullwidth.html?electronic">+ Shop Collection</a>
+								</div>
+							</figcaption>
+						</figure>
+					</article>
+				</div>
+				<div class="col-lg-3">
+					<article class="single_categories" id="book">
+						<figure>
+							<div class="categories_thumb">
+								<a href="shop-fullwidth.html?book"><img src="assets/img/s-product/book.jpg" alt=""></a>
+							</div>
+							<figcaption class="categories_content">
+								<h4 class="product_name"><a href="shop-fullwidth.html?book">Book</a></h4>
+								<div class="product_collection">
+									<p class="num_product_c"></p>
+									<a href="shop-fullwidth.html?book">+ Shop Collection</a>
+								</div>
+							</figcaption>
+						</figure>
+					</article>
+				</div>
+				<div class="col-lg-3">
+					<article class="single_categories" id="sport">
+						<figure>
+							<div class="categories_thumb">
+								<a href="shop-fullwidth.html?sport"><img src="assets/img/s-product/sport.jpg" alt=""></a>
+							</div>
+							<figcaption class="categories_content">
+								<h4 class="product_name"><a href="shop-fullwidth.html?sport">Sport</a></h4>
+								<div class="product_collection">
+									<p class="num_product_c"></p>
+									<a href="shop-fullwidth.html?sport">+ Shop Collection</a>
+								</div>
+							</figcaption>
+						</figure>
+					</article>
+				</div>
+				<div class="col-lg-3">
+					<article class="single_categories" id="clothes">
+						<figure>
+							<div class="categories_thumb">
+								<a href="shop-fullwidth.html?clothes"><img src="assets/img/s-product/clothes.jpg" alt=""></a>
+							</div>
+							<figcaption class="categories_content">
+								<h4 class="product_name"><a href="shop-fullwidth.html?clothes">Clothes</a></h4>
+								<div class="product_collection">
+									<p class="num_product_c"></p>
+									<a href="shop-fullwidth.html?clothes">+ Shop Collection</a>
+								</div>
+							</figcaption>
+						</figure>
+					</article>
+				</div>
+		   </div>
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3">
+                <article class="single_categories" id="home">
+                    <figure>
+                        <div class="categories_thumb">
+                            <a href="shop-fullwidth.html?home"><img src="assets/img/s-product/home.jpg" alt=""></a>
+                        </div>
+                        <figcaption class="categories_content">
+                            <h4 class="product_name"><a href="shop-fullwidth.html?home">Home</a></h4>
+                            <div class="product_collection">
+                                <p class="num_product_c"></p>
+                                <a href="shop-fullwidth.html?home">+ Shop Collection</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+            <div class="col-lg-3">
+                <article class="single_categories" id="toy">
+                    <figure>
+                        <div class="categories_thumb">
+                            <a href="shop-fullwidth.html?toy"><img src="assets/img/s-product/toy.jpg" alt=""></a>
+                        </div>
+                        <figcaption class="categories_content">
+                            <h4 class="product_name"><a href="shop-fullwidth.html?toy">Toy</a></h4>
+                            <div class="product_collection">
+                                <p class="num_product_c"></p>
+                                <a href="shop-fullwidth.html?toy">+ Shop Collection</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+    <!--product area end-->
+    
+
+    <div class="container_chatbot">
+        <div class="row">
+            <div id="Smallchat">
+                <div class="Layout Layout-open Layout-expand Layout-right" style="background-color: #3F51B5;color: rgb(255, 255, 255);opacity: 5;border-radius: 10px;">
+                    <div class="Messenger_messenger">
+                        <div class="Messenger_header" style="background-color: #2064f5; color: rgb(255, 255, 255);">
+                            <h4 class="Messenger_prompt" style="color: white;">Chatbot</h4> <span class="chat_close_icon"><i class="fa fa-window-close" aria-hidden="true"></i></span> </div>
+                        <div class="Messenger_content">
+                            <div class="Messages">
+                                <div class="Messages_list"></div>
+                            </div>
+                            <div class="Input Input-blank">
+                                <form id="chatbot">
+                                    <textarea class="Input_field" placeholder="Send a message..." style="height: 20px;"></textarea>
+                                    <button class="Input_button Input_button-send" id="messageButton" type="button">
+                                        <div class="Icon" style="width: 18px; height: 18px;">
+                                            <svg width="57px" height="54px" viewBox="1496 193 57 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 18px; height: 18px;">
+                                                <g id="Group-9-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1523.000000, 220.000000) rotate(-270.000000) translate(-1523.000000, -220.000000) translate(1499.000000, 193.000000)">
+                                                <path d="M5.42994667,44.5306122 L16.5955554,44.5306122 L21.049938,20.423658 C21.6518463,17.1661523 26.3121212,17.1441362 26.9447801,20.3958097 L31.6405465,44.5306122 L42.5313185,44.5306122 L23.9806326,7.0871633 L5.42994667,44.5306122 Z M22.0420732,48.0757124 C21.779222,49.4982538 20.5386331,50.5306122 19.0920112,50.5306122 L1.59009899,50.5306122 C-1.20169244,50.5306122 -2.87079654,47.7697069 -1.64625638,45.2980459 L20.8461928,-0.101616237 C22.1967178,-2.8275701 25.7710778,-2.81438868 27.1150723,-0.101616237 L49.6075215,45.2980459 C50.8414042,47.7885641 49.1422456,50.5306122 46.3613062,50.5306122 L29.1679835,50.5306122 C27.7320366,50.5306122 26.4974445,49.5130766 26.2232033,48.1035608 L24.0760553,37.0678766 L22.0420732,48.0757124 Z" id="sendicon" fill="#96AAB4" fill-rule="nonzero"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--===============CHAT ON BUTTON STRART===============-->
+            <div class="chat_on"> <span class="chat_on_icon"><i class="fa fa-comments" aria-hidden="true"></i></span> </div>
+        <!--===============CHAT ON BUTTON END===============-->
+      </div>
+    </div>
+    <div id="getting-started"></div>
+    <!--footer area start-->
+    <footer class="footer_widgets"> 
+        <div class="container">
+            <div class="footer_bottom">  
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-7">
+                        <div class="footer_bottom_left">
+                        	<div class="footer_logo">
+							   <a href="index.html"><img src="assets/img/logo/5hd.png" alt="5hd"></a>
+							</div>
+                        	<div class="copyright_area">
+								<p>Copyright  © 2020  <a href="index.html">5HD</a>.  <a href="https://hasthemes.com/" target="_blank">All rights reserved.</a></p>
+							</div>
+                        </div>
+                    </div> 
+                    <div class="col-lg-6 col-md-5">
+                       <div class="footer_paypal text-right">
+                       		<a href="#"><img src="assets/img/icon/payment.png" alt=""></a>	
+                       </div>
+                    </div>    
+                </div>     
+            </div>  
+        </div>    
+    </footer>
+    <!--footer area end-->
+   
+    <!-- modal area start-->
+    <div class="modal fade" id="modal_box" tabindex="-1" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="ion-android-close"></i></span>
+                </button>
+                <div class="modal_body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-12">
+                                <div class="modal_tab">  
+                                    <div class="tab-content product-details-large">
+                                        <div class="tab-pane fade show active" id="tab1" role="tabpanel" >
+                                            <div class="modal_tab_img">
+                                                <a href="#"><img src="assets/img/product/productbig1.jpg" alt=""></a>    
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab2" role="tabpanel">
+                                            <div class="modal_tab_img">
+                                                <a href="#"><img src="assets/img/product/productbig2.jpg" alt=""></a>    
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab3" role="tabpanel">
+                                            <div class="modal_tab_img">
+                                                <a href="#"><img src="assets/img/product/productbig3.jpg" alt=""></a>    
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab4" role="tabpanel">
+                                            <div class="modal_tab_img">
+                                                <a href="#"><img src="assets/img/product/productbig4.jpg" alt=""></a>    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal_tab_button">    
+                                        <ul class="nav product_navactive owl-carousel" role="tablist">
+                                            <li >
+                                                <a class="nav-link active" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false"><img src="assets/img/product/product3.jpg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                 <a class="nav-link" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false"><img src="assets/img/product/product8.jpg" alt=""></a>
+                                            </li>
+                                            <li>
+                                               <a class="nav-link button_three" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                            </li>
+                                            <li>
+                                               <a class="nav-link" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false"><img src="assets/img/product/product6.jpg" alt=""></a>
+                                            </li>
+                                        </ul>
+                                    </div>    
+                                </div>  
+                            </div> 
+                            <div class="col-lg-7 col-md-7 col-sm-12">
+                                <div class="modal_right">
+                                    <div class="modal_title mb-10">
+                                        <h2>Donec Ac Tempus</h2> 
+                                    </div>
+                                    <div class="modal_price mb-10">
+                                        <span class="new_price">$64.99</span>    
+                                    </div>
+                                    <div class="modal_description mb-15">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iste laborum ad impedit pariatur esse optio tempora sint ullam autem deleniti nam in quos qui nemo ipsum numquam, reiciendis maiores quidem aperiam, rerum vel recusandae </p>    
+                                    </div> 
+                                    <div class="variants_selects">
+                                        <div class="variants_size">
+                                           <h2>size</h2>
+                                           <select class="select_option">
+                                               <option selected value="1">s</option>
+                                               <option value="1">m</option>
+                                               <option value="1">l</option>
+                                               <option value="1">xl</option>
+                                               <option value="1">xxl</option>
+                                           </select>
+                                        </div>
+                                        <div class="variants_color">
+                                           <h2>color</h2>
+                                           <select class="select_option">
+                                               <option selected value="1">purple</option>
+                                               <option value="1">violet</option>
+                                               <option value="1">black</option>
+                                               <option value="1">pink</option>
+                                               <option value="1">orange</option>
+                                           </select>
+                                        </div>
+                                        <div class="modal_add_to_cart">
+                                            <form action="#">
+                                                <input min="1" max="100" step="2" value="1" type="number">
+                                                <button type="submit">add to cart</button>
+                                            </form>
+                                        </div>   
+                                    </div>
+                                    <div class="modal_social">
+                                        <h2>Share this product</h2>
+                                        <ul>
+                                            <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                            <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>    
+                                    </div>      
+                                </div>    
+                            </div>    
+                        </div>     
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <!-- modal area end-->
+<!-- JS
+============================================ -->
+<!--jquery min js-->
+<script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+<!--popper min js-->
+<script src="assets/js/popper.js"></script>
+<!--bootstrap min js-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!--owl carousel min js-->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!--slick min js-->
+<script src="assets/js/slick.min.js"></script>
+<!--magnific popup min js-->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!--jquery countdown min js-->
+<script src="assets/js/jquery.countdown.js"></script>
+<!--jquery ui min js-->
+<script src="assets/js/jquery.ui.js"></script>
+<!--jquery elevatezoom min js-->
+<script src="assets/js/jquery.elevatezoom.js"></script>
+<!--isotope packaged min js-->
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<!-- Plugins JS -->
+<script src="assets/js/plugins.js"></script>
+
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+
+<!-- Index.html JS -->
+<script type="module" src="assets/js/index.js"></script>
+
+<script type="module" src="assets/js/chat.js"></script>
+
+<script type="module" src="assets/js/search.js"></script>
+
+</body>
+
+</html>

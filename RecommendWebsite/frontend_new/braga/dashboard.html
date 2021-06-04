@@ -1,0 +1,390 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>5HD - Dashboard</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    
+    <!-- CSS 
+    ========================= -->
+    <!--bootstrap min css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--owl carousel min css-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!--slick min css-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!--magnific popup min css-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--font awesome css-->
+    <link rel="stylesheet" href="assets/css/font.awesome.css">
+    <!--ionicons css-->
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <!--7 stroke icons css-->
+    <link rel="stylesheet" href="assets/css/pe-icon-7-stroke.css">
+    <!--animate css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--jquery ui min css-->
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <!--plugins css-->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--modernizr min js here-->
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+  
+</head>
+
+<body>
+
+   <!--header area start-->
+    <header>
+      <div class="main_header sticky-header">
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="col-lg-2 col-md-4 offset-md-4 offset-lg-0 col-5 offset-3 col-sm-5">
+                      <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo/5hd.png" alt=""></a>
+                      </div>
+                  </div>             
+              </div>
+          </div>
+      </div> 
+        <!--mini cart-->
+        <div class="mini_cart">
+            <div class="cart_gallery">
+                <div class="cart_close">
+                    <div class="cart_text">
+                        <h3>cart</h3>
+                    </div>
+                    <div class="mini_cart_close">
+                        <a href="javascript:void(0)"><i class="ion-android-close"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--mini cart end-->
+    </header>
+    <!--header area end-->
+    
+    <!--breadcrumbs area start-->
+    <div class="breadcrumbs_area">
+        <div class="container">   
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb_content">
+                        <h3>Dashboard</h3>
+                    </div>
+                </div>
+            </div>
+        </div>         
+    </div>
+    <!--breadcrumbs area end-->
+    
+    <!-- my account start  -->
+    <section class="main_content_area">
+        <div class="container">   
+            <div class="account_dashboard">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <!-- Nav tabs -->
+                        <div class="dashboard_tab_button">
+                            <ul role="tablist" class="nav flex-column dashboard-list">
+                                <li><a href="#viewproduct" data-toggle="tab" class="nav-link">View Product</a></li>
+                                <li><a href="#addproduct" data-toggle="tab" class="nav-link">Add Product</a></li>
+                                <li> <a href="#orders" data-toggle="tab" class="nav-link">View Orders</a></li>
+                                <li><a class="nav-link" id="logout">Logout</a></li>
+                            </ul>
+                        </div>    
+                    </div>
+                    <div class="col-sm-12 col-md-9 col-lg-9">
+                        <!-- Tab panes -->
+                        <div class="tab-content dashboard_content">
+                            <div class="tab-pane fade" id="viewproduct">
+                                <h3>View Product</h3>
+                                <div class="shopping_cart_area">
+                                    <div class="container">  
+                                        <form action="#"> 
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="table_desc">
+                                                        <div class="cart_page table-responsive">
+                                                            <table class="ViewAllProduct">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th class="product_thumb">Image</th>
+                                                                        <th class="product_name">Category</th>
+                                                                        <th class="product-price">Name</th>
+                                                                        <th class="product_quantity">Price</th>
+                                                                        <th class="product_quantity">Stock</th>
+                                                                        <th class="product_quantity">Tag</th>
+                                                                        <th class="product_quantity"></th>
+                                                                        <th class="product_quantity"></th>
+                                                                    </tr>
+                                                                </thead>
+                                                            </table>   
+                                                        </div>    
+                                                    </div>
+                                                 </div>
+                                             </div>
+                                        </form> 
+                                    </div>     
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="addproduct">
+                                <div class="row">
+                                    <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+                                      <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h2 class="tm-block-title d-inline-block">Add Product</h2>
+                                            </div>
+                                        </div>
+                                        <div class="row tm-edit-product-row">
+                                            <div class="col-xl-6 col-lg-6 col-md-12">
+                                              <form class="tm-edit-product-form" id="apform">
+                                                <div class="form-group mb-3">
+                                                    <label for="name">Product Name</label>
+                                                    <input id="name" name="name" type="text" class="form-control validate" required>
+                                                </div>
+                                                <div class="form-group mb-3">
+                                                    <label for="description">Description</label>
+                                                    <textarea id="description" class="form-control validate" rows="3" required=""></textarea>
+                                                </div>
+                                                <div class="form-group mb-3">
+                                                    <label for="Tags">Tags</label>
+                                                    <textarea id="tags" class="form-control validate" placeholder="string split by space" rows="1" required=""></textarea>
+                                                </div>
+                                                <div class="form-group mb-3">
+                                                    <label for="category">Category</label>
+                                                    <select class="custom-select tm-select-accounts" id="category">
+                                                        <option selected="">Select category</option>
+                                                        <option value="0">Electronic</option>
+                                                        <option value="1">Book</option>
+                                                        <option value="2">Sport</option>
+                                                        <option value="3">Clothes</option>
+                                                        <option value="4">Home</option>
+                                                        <option value="5">Toy</option>
+                                                    </select>
+                                                </div>
+                                                <div class="row">
+                                                      <div class="form-group mb-3 col-xs-12 col-sm-6">
+                                                        <label for="stock">Inventory</label>
+                                                        <input id="stock" name="stock" type="number" class="form-control validate" required>
+                                                      </div>
+                                                      <div class="form-group mb-3 col-xs-12 col-sm-6">
+                                                          <label for="price">Price</label>
+                                                          <input id="price" name="price" type="number" class="form-control validate" required="">
+                                                      </div>
+                                                </div>
+                                            </form>
+                                          </div>
+                                          <div class="col-xl-6 col-lg-6 col-md-12 mx-auto mb-4">
+                                              <div class="tm-product-img-dummy mx-auto">
+                                                  <td><img id="uploadPreview1" style="width: 200px; height: 200px;" src="assets/default.png" alt="Image preview" /></td>
+                                              </div>
+                                              <div class="custom-file mt-3 mb-3">
+                                                <input id="fileInput1" type="file" style="display:none;" accept=".png">
+                                                <button type="button" style="background-color: #ff4545;color: white; border-color:#ff4545"" class="btn btn-primary btn-block mx-auto" onclick="document.getElementById('fileInput1').click();">UPLOAD FIRST IMAGE</button>
+                                              </div>
+                                              <div class="tm-product-img-dummy mx-auto">
+                                                  <td><img id="uploadPreview2" style="width: 200px; height: 200px;" src="assets/default.png" alt="Image preview" /></td>
+                                              </div>
+                                              <div class="custom-file mt-3 mb-3">
+                                                  <input id="fileInput2" type="file" style="display:none;" accept=".png">
+                                                  <input type="button" style="background-color: #ff4545;color: white; border-color:#ff4545" class="btn btn-primary btn-block mx-auto" value="UPLOAD SECOND IMAGE" onclick="document.getElementById('fileInput2').click();">
+                                              </div>
+                                          </div>
+                                          <div class="col-12">
+                                              <button id="submit" type="submit" class="btn btn-primary btn-block text-uppercase" style="background-color: black;color: white; margin-top: 10px">Add Product Now</button>
+                                              <button type="submit" class="btn btn-primary btn-block text-uppercase" 
+                                              style="background-color: white;color: black; margin-top: 10px; border: 2px solid black;" 
+                                              onMouseOver="this.style.background='black'; this.style.color='white'" 
+                                              onMouseOut="this.style.background='white';this.style.color='black'"
+                                              onclick="window.location.reload()"
+                                              >Discard</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="tab-pane fade" id="orders">
+                                <h3>Orders</h3>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>User Name</th>
+                                                <th>Order Id</th>
+                                                <th>Date</th>
+                                                <th>Status</th>
+                                                <th>Total</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="changeproduct">
+                                <div class="row">
+                                    <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+                                        <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <h2 class="tm-block-title d-inline-block">Edit Product</h2>
+                                                </div>
+                                                </div>
+                                                <div class="row tm-edit-product-row">
+                                                <div class="col-xl-6 col-lg-6 col-md-12">
+                                                    <form class="tm-edit-product-form" id="apform">
+                                                        <div class="form-group mb-3">
+                                                            <label for="name">Product Name</label>
+                                                            <input id="updateName" name="name" type="text" class="form-control validate" required>
+                                                        </div>
+                                                        <div class="form-group mb-3">
+                                                            <label for="description">Description</label>
+                                                            <textarea id="updateDescription" class="form-control validate" rows="3" required=""></textarea>
+                                                        </div>
+                                                        <div class="form-group mb-3">
+                                                            <label for="Tags">Tags</label>
+                                                            <textarea id="updateTags" class="form-control validate" placeholder="string split by space" rows="1" required=""></textarea>
+                                                        </div>
+                                                        <div class="form-group mb-3">
+                                                            <label for="category">Category</label>
+                                                            <select class="custom-select tm-select-accounts" id="updateCategory">
+                                                                <option selected="">Select category</option>
+                                                                <option value="0">Electronic</option>
+                                                                <option value="1">Book</option>
+                                                                <option value="2">Sport</option>
+                                                                <option value="3">Clothes</option>
+                                                                <option value="4">Home</option>
+                                                                <option value="5">Toy</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group mb-3 col-xs-12 col-sm-6">
+                                                                <label for="stock">Inventory</label>
+                                                                <input id="updateStock" name="stock" type="number" class="form-control validate" required>
+                                                            </div>
+                                                            <div class="form-group mb-3 col-xs-12 col-sm-6">
+                                                                <label for="price">Price</label>
+                                                                <input id="updatePrice" name="price" type="number" class="form-control validate" required="">
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6 col-md-12 mx-auto mb-4">
+                                                    <div class="tm-product-img-dummy mx-auto">
+                                                        <td>
+                                                            <img id="changePreview1" style="width: 200px; height: 200px;" src="assets/default.png" alt="Image preview" />
+                                                        </td>
+                                                    </div>
+                                                    <div class="custom-file mt-3 mb-3">
+                                                    <input id="fileInput1" type="file" style="display:none;" accept=".png">
+                                                    <button type="button" style="background-color: #ff4545;color: white; border-color:#ff4545"" class="btn btn-primary btn-block mx-auto" onclick="document.getElementById('fileInput1').click();">UPLOAD FIRST IMAGE</button>
+                                                    </div>
+                                                    <div class="tm-product-img-dummy mx-auto">
+                                                        <td><img id="changePreview2" style="width: 200px; height: 200px;" src="assets/default.png" alt="Image preview" /></td>
+                                                    </div>
+                                                    <div class="custom-file mt-3 mb-3">
+                                                        <input id="fileInput2" type="file" style="display:none;" accept=".png">
+                                                        <input type="button" style="background-color: #ff4545;color: white; border-color:#ff4545" class="btn btn-primary btn-block mx-auto" value="UPLOAD SECOND IMAGE" onclick="document.getElementById('fileInput2').click();">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button id="updateSubmit" type="submit" class="btn btn-primary btn-block text-uppercase" style="background-color: black;color: white; margin-top: 10px">Edit Product Now</button>
+                                                    <button type="submit" class="btn btn-primary btn-block text-uppercase" 
+                                                    style="background-color: white;color: black; margin-top: 10px; border: 2px solid black;" 
+                                                    onMouseOver="this.style.background='black'; this.style.color='white'" 
+                                                    onMouseOut="this.style.background='white';this.style.color='black'"
+                                                    onclick="window.location.reload()"
+                                                    >Discard</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>        	
+    </section>			
+    <!-- my account end   --> 
+
+  <!--footer area start-->
+    <footer class="footer_widgets footer_padding"> 
+        <div class="container">
+            <div class="footer_top">
+                <div class="row">
+                    <div class="col-12">
+                    	<div class="newsletter_area">
+                    		 <div class="section_title">
+							   <h2>Keep Connected</h2>
+							</div>
+							<div class="newsletter_desc">
+								<p>Get updates by subscribe our weekly newsletter</p>
+							</div>
+                    	</div>
+                    </div>    
+                 </div>
+            </div>
+            <div class="footer_bottom">  
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-7">
+                        <div class="footer_bottom_left">
+                        	<div class="footer_logo">
+							   <a href="index.html"><img src="assets/img/logo/5hd.png" alt=""></a>
+							</div>
+                        	<div class="copyright_area">
+								<p>Copyright  © 2020  <a href="index.html">5HD</a>. All rights reserved.</a></p>
+							</div>
+                        </div>
+                    </div> 
+                </div>     
+            </div>  
+        </div>    
+  </footer>
+    <!--footer area end-->
+ 
+<!-- JS
+============================================ -->
+<!--jquery min js-->
+<script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+<!--popper min js-->
+<script src="assets/js/popper.js"></script>
+<!--bootstrap min js-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!--owl carousel min js-->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!--slick min js-->
+<script src="assets/js/slick.min.js"></script>
+<!--magnific popup min js-->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!--jquery countdown min js-->
+<script src="assets/js/jquery.countdown.js"></script>
+<!--jquery ui min js-->
+<script src="assets/js/jquery.ui.js"></script>
+<!--jquery elevatezoom min js-->
+<script src="assets/js/jquery.elevatezoom.js"></script>
+<!--isotope packaged min js-->
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<!-- Plugins JS -->
+<script src="assets/js/plugins.js"></script>
+
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+
+<script type="module" src="assets/js/dashboard.js"></script>
+
+</body>
+
+</html>

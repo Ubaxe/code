@@ -1,0 +1,7 @@
+Date:    10-10-2020
+Version: 1.0.1
+===================
+1. Updated: Bootstrap Latest Version(5.0.0)
+2. Fixed: Minor CSS Issue
+3. Improved: Responsive
+

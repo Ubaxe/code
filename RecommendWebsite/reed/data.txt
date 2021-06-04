@@ -1,0 +1,29 @@
+"user_profile" = [
+    {"email" : 0, "password" : 0, "name": 0, "user_id" : 0, "status": True/False, "token" : 0},
+    
+]
+
+"loggedInDB"=["email", "email"....]
+
+"admin"=[{"email" : 0, "password" : 0, "name": 0, "admin_id" : 0, "status": True/False, "token" : 0},]
+
+'product'=[{'id':0, 'category_id':0, 'admin_id':0, 'name':0, 'detail': 0, 'tag':[], "first_product_img_url": None, "second_product_img_url": None, 'price':0, 'stock':0, 'status':0 (1 for sale, 0 for not), 'create_time':0},]
+                                                                                     
+
+'category_id': 0 for daily product
+             : 1 for electronic product
+
+
+'cart'=[{"user_id" : 0, 'product':[id, id, id]}]
+
+
+'record'=[{"user_id" : 0, 'product':[ {'id':[id,id..], 'time':time, 'cost':cost},{},{}]]
+
+
+
+get_record function will return   [{'cart_id':number, 'product':[list of product], 'item_number':len(l),'cost':i['cost'], 'time':time}]
+
+admin_order function will return   [{'name':name,'user_id':number, 'cart_id':number,'product':[list of product], 'item_number':len(l),'cost':i['cost'],'time':time}]
+
+
+search  [{user_id: 0, search_record:[]}]   i will only store 6 words 
