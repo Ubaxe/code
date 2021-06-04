@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handleKeyPress" prefHeight="340.0" prefWidth="607.0" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/pressure_plate.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="351.0" fitWidth="615.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/introduction.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="39.0" layoutX="92.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/BigEnemy.png" />
+         </image>
+      </ImageView>
+      <Text fill="#ee0303" layoutX="92.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Darkest Dungeon">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fill="#d7330a" layoutX="41.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to the darkest dungeon! In this game, you will have to complete different goals to get out of the dungeon. Remember! Sometimes you have to complete other goals before getting out of the dungeon" wrappingWidth="509.08935546875">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#ee16bf" layoutX="146.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is our new boss! You can beat it with 3 hits of sword." />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</Pane>

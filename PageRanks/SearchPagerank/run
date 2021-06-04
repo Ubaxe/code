@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#  Script.sh
+#  PageRanks
+#
+#  Created by Dylan on 24/7/19.
+#  Copyright © 2019 Dylan. All rights reserved.
+gcc -Wall -lm -std=c11  *.c  -o searchPagerank
+./searchPagerank and  design
+valgrind  --leak-check=full --log-file=all ./searchPagerank and  design
+gedit all&
