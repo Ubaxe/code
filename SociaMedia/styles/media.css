@@ -1,0 +1,537 @@
+@media only screen and (max-width: 400px) and (max-height: 700px)  {
+
+    #main {
+        height: 80%;
+    }
+
+    .banner >h1 {
+        font-size: 1.2em;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color:white;
+        min-height: auto;
+        height: 50px;
+        border-bottom: 1px solid gray;
+    }
+
+    button {
+        outline: none;
+        cursor: pointer;
+        -webkit-tap-highlight-color:transparent;
+    }
+
+    .backImg {
+        display: none;
+    }
+
+    .LoginPart {
+        font-size: 1em;
+        width: auto;
+        height: 100%;
+        padding: 20px;
+        border: 1px solid #d8dee2;
+    }
+
+    input{
+        font-size: 1.0em;
+        outline-style: none ;
+        height: 35px;
+        width: 300px;
+        margin: 10px;
+        padding-left: 20px;
+    }
+
+    .Section-title {
+        font-size: 1.5em;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #LoginSubmit {
+        font-size: 1em;
+        font-weight: bolder;
+        width: 330px;
+        height: 40px;
+        margin: 30px 0px 0px 10px;
+        border-radius: 10px;
+    }
+    
+    .SignUpBlock {
+        margin-top: 30px;
+    }
+
+    .RegistPart {
+        font-size: 1em;
+        width: auto;
+        height: 100%;
+        padding: 20px 20px 0px 20px;
+        border: 1px solid #d8dee2;
+    }
+
+    #RegistSubmit {
+        font-size: 1em;
+        font-weight: bolder;
+        width: 330px;
+        height: 40px;
+        margin: 30px 0px 0px 10px;
+        border-radius: 10px;
+    }
+
+    /* Nav Part*/
+
+    .banner > .nav {
+        margin: 0px 0px;
+    }
+
+    footer {
+        border-top: 1px solid gray;
+        padding: 10px;
+        background-color:white;
+        min-height: 40px;
+        text-align: right;
+    }
+
+    footer > p {
+        display: none;
+    }
+
+    #searchNameForm {
+        padding-left: 0px;
+        display: none;
+    }
+
+    #searchNameForm > .text{
+        display: none;
+    }
+
+    #searchUser {
+        margin-right: 20px;
+        width: 130px;
+    }
+
+    .nav {
+        list-style-type: none;
+        padding: 10px;
+        position: absolute;
+        top:640px;
+        width: 400px;
+        display: flex;
+        position: fixed;
+        right: 2px;
+        background-color: white;
+        -webkit-tap-highlight-color:transparent;
+    }
+
+    .nav-item {
+        margin: auto;
+        padding: 5px 5px 15px 45px;
+        list-style-type: none;
+    }
+
+    #nav-follow {
+        display: none;
+        padding-right: 10px;
+        padding: 5px;
+        width: 35px;
+        height: 35px;
+    }
+    
+    #searchReasult {
+        font-size: 0.8em;
+        margin-right: 20px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    
+    #nav-add-post {
+        width: 36px;
+        height: 36px;
+    }
+    
+    #nav-profile {
+        width: 36px;
+        height: 36px;
+    }
+    
+    #nav-setting {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .CloseIcon {
+        height: 40px;
+        width: 40px;
+    }
+
+    /* Feed Part */
+
+    .Nofeeds {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bolder;
+        border-radius: 20px;
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        top: 15%;
+        transform: translate(-50%,-50%);
+    }
+
+    .Nofeedsmesg {
+        margin-top: 250px;
+        margin-left: 10px;
+    }
+
+    .FeedPart {
+        background-color: white;
+        width: 400px;
+        height: 450px;
+        margin-left: 0px;
+        border: 3px solid gray;
+        border: none;
+    }
+
+    .FeedAuthor {
+        padding: 20px 10px 10px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1em;
+    }
+
+    #UnfollowButton {
+        font-size: 1em;
+        color: white;
+        background-color: black;
+        border-radius: 10%;
+        width: 100px;
+        height: 40px;
+        outline: none;
+    }
+
+    .FeedImg {
+        width: 400px;
+        height: 270px;
+    }
+
+    .FeedInfoContainer {
+        font-size: 0.8em;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .FeedWhenMade {
+        width: 400px;
+    }
+
+    .LikeIcon{
+        width: 20px;
+        height: 20px;
+    }
+
+    #CommemtBox {
+        font-size: 0.85em;
+        margin-top: 5px;
+        height: 40px;
+        width: 380px;
+        border: none;
+        outline: none;
+        resize:none;    
+        border-top: 1px solid grey;
+    }
+    #PostComm {
+        padding: 1px;
+        width: 380px;
+    }
+
+    .PostButton {
+        background-color: white;
+        color: black;
+        font-size: 1em;
+        width: 80px;
+        height: 35px;
+        cursor: pointer;
+        position: relative;
+        border: none;
+        left: 320px;
+        bottom: 45px;
+        outline: none;
+    }
+
+    .Pagination__Nav {
+        margin-left: 100px;
+        margin-top: 60px;
+        padding: 1px;
+    }
+    
+    .Pagination__NavItem {
+        padding:20px;
+    }
+
+    .Pagination__Button {
+        font-size: 0.5em;
+        padding:15px;
+        background-color: #fafafa;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    #Pagination__Button_current{
+        background-color: #fafafa;
+        border: 1px solid black;
+    }
+
+    /*Proifl Part*/
+
+    #ProfileSection {
+        font-size: 1.2em;
+        background-color: white;
+        width: 400px;
+        height: 550px;
+        margin-left: 0px;
+        border-top: none;
+        border-bottom: none ;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .userInfo {
+        height: 500px;
+        padding: 20px
+    }
+
+    .a_list {
+        margin-top: 40px;
+        padding-top: 50px;
+        border-top: 1px solid lightgray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 1em;
+    }
+    
+    .ProfileUserName {
+        font-size: 2em;
+    }
+    
+    .ProfileEmail {
+        font-size: 1em;
+    }
+    
+    .postImg {
+        width: 400px;
+        height: 450px;
+    }
+    
+    .greycover {
+        text-align: center;
+        position: relative; 
+        bottom: 250px;
+        color: black;
+        font-weight: bolder;
+    }
+    
+    .updatePost {
+        width: 32px;
+        height: 32px;
+        margin-right: 25px;
+        margin-bottom: 5px;
+    }
+
+    .userPost {
+        background-color: #fafafa;
+        height:200px;
+        padding: 0px;
+    }
+
+    .updateInput {
+        resize: none;
+        font-size: 1em;
+        height: 40px;
+        width: 280px;
+        position: absolute;
+        right: 100px;
+    }
+
+    /* Follow Section */
+
+    .FollowSection {
+        font-size: 1.2em;
+        background-color: white;
+        width: 400px;
+        height: 580px;
+        margin-left: 0px;
+        border: none;
+    }
+
+    /* Setting Part  */
+
+    .setting {
+        display: none;
+        position: absolute;
+        top: 420px;
+        left: 175px;
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        border: 1px solid gray;
+        -webkit-tap-highlight-color:transparent;
+        position: fixed;
+    }
+    
+    .setting > ul {
+        list-style: none;
+        padding-left: 10px;
+    }
+    
+    .setting > ul > li {
+        list-style: none;
+        font-size: 1em;
+        padding: 10px;
+    }
+    
+    .settingItem {
+        cursor: pointer;
+    }
+
+    /* Adding Post */
+
+    .AddingPostSection{
+        font-size: 1em;
+        background-color: white;
+        width: 400px;
+        height: 580px;
+        margin-left: 0px;
+        margin-top: 0px;
+        border: none;
+    }
+
+    #PostDescr {
+        font-size: 1em;
+        width: 395px;
+        height: 280px;
+        margin-left: 0px;
+        margin-top: 20px;
+        resize: none;
+        outline: none;
+    }
+    .AddingPostTitle {
+        margin: 0px;
+        padding-left: 120px;
+    }
+
+    .AddimgButton{
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .InputImg {
+        display: none;
+    }
+
+    #GreenTick {
+        width: 26px;
+        height: 26px;
+        margin-left: 20px;
+        display: none;
+    }
+
+    .mesg {
+        display: none;
+        margin-left: 10px;
+        font-weight: bold;
+        color: red;
+        position: relative;
+        top: 40px;
+        right: 40px;
+    }
+
+    #AddPostSumbit {
+        font-size: 1em;
+        margin-left: 140px;
+        position: relative;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        outline: none;
+    }
+
+    /* Change Info Section */
+
+    .ChangeInfoSection {
+        font-size: 1em;
+        background-color: white;
+        width: 400px;
+        height: 580px;
+        margin-left: 0px;
+        margin-top: 0px;
+        border: none;
+    }
+
+    .UpdateSumbit {
+        font-size: 1em;
+        width: 220px;
+        height: 60px;
+        margin-top: 30px;
+        color: white;
+        background-color: black;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    .UpdateSumbit:hover {
+        color: black;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .WhoLikeSection {
+        font-size: 1.2em;
+        background-color: white;
+        width: 400px;
+        height: 580px;
+        margin-left: 0px;
+        border: none;
+    } 
+
+    .SectionHeading {
+        font-size: 1.4em;
+        display: block;
+        text-align: center;
+        font-weight: bolder
+    }
+
+    /* Comment Section */
+
+    .UserList {
+        padding: 10px;
+    }
+    .UserRow {
+        padding: 20px;
+        margin-top: 50px;
+        font-size: 0.8em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .WhoCommSection {
+        font-size: 1em;
+        background-color: white;
+        width: 400px;
+        height: 580px;
+        margin-left: 0px;
+        border: none;
+    }
+}
